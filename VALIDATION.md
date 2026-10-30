@@ -47,3 +47,11 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Browser tests covered Scopus review with selected-field updates, preservation of unchecked fields, undo, history restore, application versions, dedicated project fields, rich subscripts, photo crop and black-and-white mode. Temporary test data and avatar are not shipped.
 - Visually reviewed all four Spectrum PDF and Word pages with a photo, plus all three compact PDF pages and all four compact Word pages without a photo. Checked true Word subscript, hyperlinks and embedded photo. Word pagination differs from PDF as documented.
 - Existing publication parser suites and JavaScript syntax checks pass.
+
+## Journal name and metric styling
+
+- Added independent journal/Nature Index/impact-factor colours and normal, bold, italic, underline and combination styles. Bundled matching CMU bold-italic for PDF and preview.
+- New manual Nature Index checkbox and impact-factor text persist as entry strings, preserving backup compatibility. Original free-text journal metrics remain intact and optional.
+- Regression checks verify custom-colour text operations, true bold-italic journal runs, Nature Index underline operations, impact-factor bold text, omission of blank/unchecked labels and monochrome overrides.
+- Browser checks cover persistence after reload and PDF/Word download generation.
+- Rendered and visually reviewed all four PDF pages and all four Word pages with coloured bold-italic journal names, underlined Nature Index and bold impact-factor labels; inspected Word run properties for exact formatting.

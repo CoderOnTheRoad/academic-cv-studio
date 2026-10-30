@@ -13,3 +13,7 @@
 @media(max-width:580px){.topbar .brand{min-width:0}.mode-switch button{padding:6px 8px;font-size:10px}.topbar .exports{width:100%}.template-mini{height:80px}.template-card small{font-size:10px}.utility-nav{margin:5px 0 12px;grid-template-columns:repeat(3,1fr)}.utility-nav button{font-size:9px;padding:7px 4px;text-align:center;background:#f0f4ea}.page-sheet{margin-bottom:20px}.cv-pages{min-height:0}.update-options{margin-left:0}.page-sheet figcaption{font-size:8px}}
 @media print{.page-sheet{box-shadow:none;break-after:page;margin:0}.page-sheet figcaption{display:none}.cv-pages{max-width:none}.page-sheet svg{width:210mm;height:297mm}@page{size:A4;margin:0}}
 .paper-scroll{overflow:auto}.preview-options{gap:10px;flex-wrap:wrap}.preview-options>span{margin-right:auto}.cv-pages{width:auto}.page-sheet svg{user-select:text}.page-sheet svg text{cursor:text}@media print{.paper-scroll{overflow:visible}.cv-pages{width:auto!important;max-width:none!important}}
+
+.publication-metadata{border:1px solid var(--line,#dedfd7);border-radius:10px;padding:16px;margin:12px 0}.publication-metadata legend{font-weight:600;padding:0 6px}.publication-appearance{margin:16px 0;padding:16px;border:1px solid var(--line,#dedfd7);border-radius:10px}.publication-appearance summary{cursor:pointer;font-weight:600}.publication-appearance-row{border-top:1px solid #e8e9e1;padding-top:12px;margin-top:12px}.publication-appearance-row .custom-colour{justify-content:space-between}
+
+@font-face{font-family:CMU;src:url('assets/fonts/cmunbi.ttf');font-weight:700;font-style:italic}

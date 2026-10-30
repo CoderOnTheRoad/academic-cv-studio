@@ -8,3 +8,5 @@ const old={id:'keep',title:'A',year:'2024',doi:'',authors:'User names',metrics:'
 const cv={profile:{name:'Sourav',email:'me@example.com'},settings:{},sections:[{id:'a',visible:true,type:'general',entries:[{title:'Shared'}]},{id:'b',visible:true,type:'general',entries:[]}]};const applied=M.applyVersion(cv,{sectionIds:['b'],settings:M.preset({},'spectrum')});assert.equal(applied.sections[0].visible,false);assert.equal(cv.sections[0].visible,true);assert.equal(applied.sections[0].entries[0].title,'Shared');assert.equal(applied.settings.template,'spectrum');assert.equal(M.issues(cv).length,0);
 const missing={...cv,sections:[{id:'publications',visible:true,type:'publication',entries:[{title:'Incomplete'}]}]};assert.ok(M.issues(missing).some(i=>i.message.includes('DOI')));
 console.log('Studio mode/template/version/update model checks passed.');
+
+assert.equal(M.normalise({journalFormat:'invalid'}).journalFormat,'italic');assert.equal(M.normalise({impactFormat:'boldUnderline'}).impactFormat,'boldUnderline');assert.equal(M.normalise({natureColor:'bad'}).natureColor,M.defaults.natureColor);

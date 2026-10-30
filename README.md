@@ -31,6 +31,7 @@ The A4 preview and PDF share one measured layout, including page breaks and page
 ## Advanced tools
 
 - Publication numbering or author-year format, own-name emphasis, sorting and type grouping.
+- Each publication has a manual Nature Index checkbox and impact-factor text field. Advanced → Publications → Journal & metric appearance sets independent colours and normal, bold, italic or underline styles (including combinations) for journal names and both labels. These appear in the preview, PDF and Word. Black-and-white print mode overrides their colours; original free-text metrics remain separately optional.
 - Rich text with bold, italic, links, bullets, subscripts and superscripts.
 - Dedicated forms for teaching, grants, talks, awards, supervision and projects, plus custom sections.
 - Named application versions save section visibility and styling while sharing current CV content. Up to 12 versions are stored.
