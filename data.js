@@ -533,35 +533,6 @@ window.CV_INITIAL = {
       ]
     },
     {
-      "id": "references",
-      "title": "References",
-      "type": "general",
-      "visible": true,
-      "entries": [
-        {
-          "id": "references-0",
-          "title": "Prof. Ranjit Thapa",
-          "organization": "Professor, Department of Physics, SRM University – AP",
-          "date": "",
-          "details": "Supervisor\nAndhra Pradesh 522502, India\nranjit.t@srmap.edu.in; ranjit.phy@gmail.com"
-        },
-        {
-          "id": "references-1",
-          "title": "Dr. Saikat Das",
-          "organization": "Senior Assistant Professor, Institute of Multidisciplinary Research for Advanced Materials, Tohoku University",
-          "date": "",
-          "details": "Katahira 2-1-1, Aoba-ku, Sendai 980-8577, Japan\ndas.saikat.c4@tohoku.ac.jp"
-        },
-        {
-          "id": "references-2",
-          "title": "Dr. Pradip Pachfule",
-          "organization": "Assistant Professor, S. N. Bose National Centre for Basic Sciences",
-          "date": "",
-          "details": "Salt Lake, JD Block, Sector 3, Bidhannagar, Kolkata, West Bengal 700106\nps.pachfule@bose.res.in"
-        }
-      ]
-    },
-    {
       "id": "skills",
       "title": "Skills",
       "type": "general",
@@ -595,6 +566,35 @@ window.CV_INITIAL = {
           "expertise": "",
           "skillType": "Technical",
           "details": "Workflow automation and analysis of computational simulation data for materials discovery."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "type": "general",
+      "visible": true,
+      "entries": [
+        {
+          "id": "references-0",
+          "title": "Prof. Ranjit Thapa",
+          "organization": "Professor, Department of Physics, SRM University – AP",
+          "date": "",
+          "details": "Supervisor\nAndhra Pradesh 522502, India\nranjit.t@srmap.edu.in; ranjit.phy@gmail.com"
+        },
+        {
+          "id": "references-1",
+          "title": "Dr. Saikat Das",
+          "organization": "Senior Assistant Professor, Institute of Multidisciplinary Research for Advanced Materials, Tohoku University",
+          "date": "",
+          "details": "Katahira 2-1-1, Aoba-ku, Sendai 980-8577, Japan\ndas.saikat.c4@tohoku.ac.jp"
+        },
+        {
+          "id": "references-2",
+          "title": "Dr. Pradip Pachfule",
+          "organization": "Assistant Professor, S. N. Bose National Centre for Basic Sciences",
+          "date": "",
+          "details": "Salt Lake, JD Block, Sector 3, Bidhannagar, Kolkata, West Bengal 700106\nps.pachfule@bose.res.in"
         }
       ]
     }
