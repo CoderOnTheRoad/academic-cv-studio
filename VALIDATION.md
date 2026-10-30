@@ -38,3 +38,12 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Browser test of the supplied export: 12 entries, 7 likely duplicates, 5 new entries selected; adding yielded 12 CV publications, and undo restored the original 7.
 - Regression checks cover BOM/CRLF, quoted commas and quotes, multiline fields, malformed/ragged CSV, duplicate headers, missing titles, full/initials-only authors, DOI normalisation, article numbers and escaped HTML content.
 - Existing BibTeX tests remain passing. Run `node tests/scopus.test.cjs` and `node tests/bibtex.test.cjs`.
+
+## Two-mode studio and templates
+
+- Verified Simple/Advanced switches share content, persist on reload and hide advanced controls in Simple mode. Mobile at 390 px has no document horizontal overflow.
+- Model regression checks cover presets, bounded settings, zero-valued crop positions, ordering, grouping, selected-field publication merges, shared-content application versions and completeness checks.
+- Layout integration checks generate all four templates using bundled fonts and PDF libraries: Classic 4 pages, Oxford 4, Modern Researcher 3, Spectrum 4 for the original CV. PDF page counts equal preview operation counts; every publication title is present. Long-word and multi-page stress content stays within page bounds.
+- Browser tests covered Scopus review with selected-field updates, preservation of unchecked fields, undo, history restore, application versions, dedicated project fields, rich subscripts, photo crop and black-and-white mode. Temporary test data and avatar are not shipped.
+- Visually reviewed all four Spectrum PDF and Word pages with a photo, plus all three compact PDF pages and all four compact Word pages without a photo. Checked true Word subscript, hyperlinks and embedded photo. Word pagination differs from PDF as documented.
+- Existing publication parser suites and JavaScript syntax checks pass.

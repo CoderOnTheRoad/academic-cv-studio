@@ -14,13 +14,30 @@ Use **Backup** to download your current data, and **Restore a backup** to move i
 
 In a Publications section, click **Import publications** and upload a **Google Scholar BibTeX** export (`.bib`, `.bibtex` or `.txt`) or a **Scopus CSV** export (`.csv`), up to 2 MB / 1,000 publications. The importer reads common article and conference citation fields, converts BibTeX author names and common LaTeX accents, and previews entries before changing your CV.
 
-Matching DOIs, matching titles and very similar long titles are flagged against all existing publication sections and earlier entries in the uploaded file. Likely duplicates start unselected. Review/edit fields, select entries and choose **Add selected**. Existing entries are never overwritten. **Undo this import** removes the latest imported batch during the current session; save a backup before leaving if you want a separate copy. Entries without titles are skipped with a file note; malformed files do not add anything. Missing fields remain flagged for review. No website scraping or external service is used.
+Matching DOIs, matching titles and very similar long titles are flagged against all existing publication sections and earlier entries in the uploaded file. Likely duplicates start unselected. Review/edit fields, select entries and choose **Add selected**. In Advanced mode, matched publications can update existing entries: review each changed field and select which values to apply. Existing nonempty fields start unchecked; missing fields start checked. **Undo this import** reverses additions and selected-field updates from the latest imported batch during the current session; save a backup before leaving if you want a separate copy. Entries without titles are skipped with a file note; malformed files do not add anything. Missing fields remain flagged for review. No website scraping or external service is used.
 
 You can import multiple exports one at a time. Unsupported complex LaTeX and bibliographic inheritance may need manual corrections in review. Scopus CSV columns are mapped by header, so column order can vary. Full author names are preferred and Scopus author IDs are removed from displayed names. Page ranges and article numbers are both supported. DOI, volume, issue, venue and publication year are preserved. Citation counts are not treated as journal metrics. UTF-8 and Windows-1252 CSV files are accepted. Quoted commas, quotes and line breaks are handled; malformed rows fail without adding partial records. RIS and PDF imports are not supported.
 
 ## Style & photo
 
-Open **Style & photo** in the sidebar to choose six palettes or a custom accent, plain/underlined/banded headings, header alignment, spacing and text size. Upload an optional JPG or PNG photo (up to 10 MB); it is centre-cropped and resized locally. Choose circle/square, left/right placement and three sizes. Photos and style choices are saved with your browser data and JSON backups, and included in PDF/DOCX downloads. Old backups remain compatible. Reset styling preserves your content and photo; remove a photo separately.
+Choose **Simple** for essential editing, templates, palettes, photos and downloads. Switch to **Advanced** for all styling and publication controls, application versions, completeness checks and history. Both modes edit the same saved CV.
+
+Four templates retain Computer Modern typography: **Classic Hong**, **Oxford**, **Modern Researcher** and **Spectrum Academic**. Spectrum uses plum and teal, numbered section bands and a coloured page edge. Advanced controls include separate name/heading/link/divider colours, margins, line spacing, entry/section spacing, indentation and black-and-white print mode.
+
+Upload an optional JPG or PNG photo (up to 10 MB); adjust zoom, crop position, border, shape, placement and size. The original upload remains local and the same crop is used in both downloads. Photos and styling are included in JSON backups. Old backups remain compatible.
+
+The A4 preview and PDF share one measured layout, including page breaks and page numbers. Preview zoom changes only the screen view. Word is editable and preserves typography, colours, photos, links and scientific sub/superscripts, but its page breaks can differ by reader.
+
+## Advanced tools
+
+- Publication numbering or author-year format, own-name emphasis, sorting and type grouping.
+- Rich text with bold, italic, links, bullets, subscripts and superscripts.
+- Dedicated forms for teaching, grants, talks, awards, supervision and projects, plus custom sections.
+- Named application versions save section visibility and styling while sharing current CV content. Up to 12 versions are stored.
+- Completeness checks flag missing fields, malformed years/DOIs and likely duplicate publications for review.
+- History keeps up to 10 checkpoints, including manual checkpoints and snapshots before significant changes. Restore creates a checkpoint of the current CV first.
+
+Versions and history are browser-local and included in backups. Download backups for durable copies and transfers between devices.
 
 ## GitHub Pages
 
