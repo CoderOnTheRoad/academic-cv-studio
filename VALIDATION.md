@@ -61,3 +61,9 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Preserved Sourav_Ghosh_CV_default.json byte-for-byte and generated initial CV data from its profile, settings and sections. Default initialization excludes historical snapshots; the original downloadable file retains them.
 - Default restore keeps local application versions/history and saves the previous CV as a checkpoint. Browser test restored 14 publications, photo and styling; preview rendered five pages and restoration survived reload.
 - Added regression check comparing initial data against the supplied JSON and validating both. Existing layout tests now use a stable fixture independent of evolving personal CV data. All parser/model/layout/default tests pass.
+
+## Skills section
+
+- Added a Skills section with skillset name, expertise and skill-type dropdowns, plus rich-text details in both modes. Existing and default CVs receive an empty section once; deleting it is respected. Original supplied JSON remains unchanged.
+- Model checks cover idempotent section creation and user deletion. Layout regression checks verify all four skill fields in shared PDF/preview text operations.
+- Browser check added a temporary skill, selected Advanced and Software & Tools, saved details and verified values after reload and in both downloads. No example skills are shipped as personal claims.

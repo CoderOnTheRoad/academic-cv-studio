@@ -10,3 +10,5 @@ const missing={...cv,sections:[{id:'publications',visible:true,type:'publication
 console.log('Studio mode/template/version/update model checks passed.');
 
 assert.equal(M.normalise({journalFormat:'invalid'}).journalFormat,'italic');assert.equal(M.normalise({impactFormat:'boldUnderline'}).impactFormat,'boldUnderline');assert.equal(M.normalise({natureColor:'bad'}).natureColor,M.defaults.natureColor);
+
+const skillsCV={settings:{},sections:[]};M.ensureSkills(skillsCV);assert.equal(skillsCV.sections[0].kind,'skills');M.ensureSkills(skillsCV);assert.equal(skillsCV.sections.length,1);skillsCV.sections=[];M.ensureSkills(skillsCV);assert.equal(skillsCV.sections.length,0);assert.deepEqual(M.expertiseOptions,['Beginner','Intermediate','Advanced','Expert']);assert.ok(M.skillTypeOptions.includes('Technical'));assert.ok(M.skillTypeOptions.includes('Other'));

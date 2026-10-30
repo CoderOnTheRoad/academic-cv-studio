@@ -35,7 +35,7 @@ The A4 preview and PDF share one measured layout, including page breaks and page
 - Publication numbering or author-year format, own-name emphasis, sorting and type grouping.
 - Each publication has a manual Nature Index checkbox and impact-factor text field. Advanced → Publications → Journal & metric appearance sets independent colours and normal, bold, italic or underline styles (including combinations) for journal names and both labels. These appear in the preview, PDF and Word. Black-and-white print mode overrides their colours; original free-text metrics remain separately optional.
 - Rich text with bold, italic, links, bullets, subscripts and superscripts.
-- Dedicated forms for teaching, grants, talks, awards, supervision and projects, plus custom sections.
+- Dedicated forms for teaching, grants, talks, awards, supervision, projects and skills, plus custom sections. Skills include a skillset name, expertise (Beginner / Intermediate / Advanced / Expert), type (Technical / Research / Software & Tools / Laboratory / Communication / Leadership / Other) and rich-text details. An empty Skills section is added once to existing and default CVs; empty sections are excluded from downloads. You can add further Skills sections through Add a section.
 - Named application versions save section visibility and styling while sharing current CV content. Up to 12 versions are stored.
 - Completeness checks flag missing fields, malformed years/DOIs and likely duplicate publications for review.
 - History keeps up to 10 checkpoints, including manual checkpoints and snapshots before significant changes. Restore creates a checkpoint of the current CV first.
