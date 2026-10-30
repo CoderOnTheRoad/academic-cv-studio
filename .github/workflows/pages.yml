@@ -30,11 +30,12 @@ jobs:
           node tests/scopus.test.cjs
           node tests/studio.test.cjs
           node tests/layout.test.cjs
+          node tests/default.test.cjs
       - uses: actions/configure-pages@v5
       - name: Prepare website
         run: |
           mkdir _site
-          cp index.html styles.css app.js bibtex.js scopus.js studio-model.js studio.js cv-layout.js data.js _site/
+          cp index.html styles.css app.js bibtex.js scopus.js studio-model.js studio.js cv-layout.js data.js Sourav_Ghosh_CV_default.json _site/
           cp -R assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:

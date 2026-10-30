@@ -84,3 +84,5 @@ renderEditor=function(){controlsEditor();const section=cv.sections.find(s=>s.id=
 $('#editor-content').addEventListener('change',e=>{if(e.target.dataset.style==='publicationSort')renderEditor();});
 
 $('#editor-content').addEventListener('change',e=>{if(!e.target.matches('[data-nature-index]'))return;const section=cv.sections.find(s=>s.id===selected),entry=section?.entries.find(entry=>entry.id===e.target.closest('[data-entry]')?.dataset.entry);if(entry){entry.natureIndexed=String(e.target.checked);save();}});
+
+$('#restore-default').onclick=()=>{if(!confirm('Restore the saved default CV, including its photo and styling? Your current CV will be saved as a checkpoint.'))return;checkpoint('Before restoring default CV');cv=clone(window.CV_INITIAL);lastImport=null;normaliseStyle();selected=cv.sections[0]?.id||'personal';editing=null;save();renderEditor();toast('Default CV restored. Previous edits are available in Version history.');};

@@ -1,12 +1,14 @@
 # Sourav Ghosh · CV Studio
 
-A personal academic CV editor, designed for GitHub Pages. No server, account, build step, or external CDN is needed. The initial CV is populated from Sourav's supplied Word document.
+A personal academic CV editor, designed for GitHub Pages. No server, account, build step, or external CDN is needed. The initial CV uses Sourav's supplied `Sourav_Ghosh_CV_default.json`, including its current publications, photo and styling. The original JSON is kept unchanged in this repository.
 
 ## Use
 
 Serve this folder over HTTP (`python3 -m http.server 8000`) and open http://localhost:8000. Avoid opening index.html directly: PDF and Word exports fetch local fonts.
 
 Edit sections and entries, add custom sections, change their order, and hide sections from exports. Changes save in this browser's local storage. PDF and editable DOCX exports are generated entirely in the browser with embedded Computer Modern Unicode fonts. Page counts can differ between formats because Word and the PDF generator use different layout engines.
+
+Use **Restore default CV** to return to the bundled default; current edits are saved as a history checkpoint first. Existing browser edits are preserved on website updates. **Download default JSON** provides the original supplied backup, including its saved history; default restoration preserves your current local history and application versions.
 
 Use **Backup** to download your current data, and **Restore a backup** to move it to another browser or device. Clearing site data removes browser edits. Initial data in data.js stays unchanged by browser edits. Review citation notes in the Publications editor; missing bibliographic details have not been invented. Optional journal metrics are copied from the original CV, not independently verified.
 

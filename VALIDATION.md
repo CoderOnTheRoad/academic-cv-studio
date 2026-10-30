@@ -55,3 +55,9 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Regression checks verify custom-colour text operations, true bold-italic journal runs, Nature Index underline operations, impact-factor bold text, omission of blank/unchecked labels and monochrome overrides.
 - Browser checks cover persistence after reload and PDF/Word download generation.
 - Rendered and visually reviewed all four PDF pages and all four Word pages with coloured bold-italic journal names, underlined Nature Index and bold impact-factor labels; inspected Word run properties for exact formatting.
+
+## Supplied default CV
+
+- Preserved Sourav_Ghosh_CV_default.json byte-for-byte and generated initial CV data from its profile, settings and sections. Default initialization excludes historical snapshots; the original downloadable file retains them.
+- Default restore keeps local application versions/history and saves the previous CV as a checkpoint. Browser test restored 14 publications, photo and styling; preview rendered five pages and restoration survived reload.
+- Added regression check comparing initial data against the supplied JSON and validating both. Existing layout tests now use a stable fixture independent of evolving personal CV data. All parser/model/layout/default tests pass.
