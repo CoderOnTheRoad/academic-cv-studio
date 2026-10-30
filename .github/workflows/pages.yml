@@ -18,11 +18,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check publication import
+        run: |
+          node --check app.js
+          node --check bibtex.js
+          node tests/bibtex.test.cjs
       - uses: actions/configure-pages@v5
       - name: Prepare website
         run: |
           mkdir _site
-          cp index.html styles.css app.js data.js _site/
+          cp index.html styles.css app.js bibtex.js data.js _site/
           cp -R assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:

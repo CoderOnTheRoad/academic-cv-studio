@@ -20,3 +20,13 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Exported and visually reviewed all pages of PDF and DOCX with a photo and coloured headings, and without a photo.
 - Verified embedded photo, accent colour, heading shading and complete publication/reference content in exports.
 - Test avatar was used only in local testing, removed afterward, and is not included in website source.
+
+## BibTeX publication import
+
+- Parser checks: nested braces, quoted fields, concatenated strings, macros, comments, conference venues, corporate authors, surname-first names, accents, pages and DOI normalisation.
+- Malformed, empty and non-BibTeX files fail without importing partial records. Untitled records are skipped with a warning. Imported values are treated as text.
+- Duplicate checks cover DOI URLs, normalised titles and very similar long titles.
+- Browser fixture: four entries yielded two new entries and two unselected duplicates (existing CV match and same-file repeat).
+- Adding selected entries changed the live CV publication count from seven to nine; citation formatting and accented authors were preserved. Undo restored seven without touching existing entries.
+- No publication-export rendering code changed; imported records use the same preview/PDF/Word citation formatter as manually entered publications.
+- Run regression checks with `node tests/bibtex.test.cjs`.

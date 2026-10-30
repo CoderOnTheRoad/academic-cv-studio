@@ -10,6 +10,14 @@ Edit sections and entries, add custom sections, change their order, and hide sec
 
 Use **Backup** to download your current data, and **Restore a backup** to move it to another browser or device. Clearing site data removes browser edits. Initial data in data.js stays unchanged by browser edits. Review citation notes in the Publications editor; missing bibliographic details have not been invented. Optional journal metrics are copied from the original CV, not independently verified.
 
+## Import Google Scholar publications
+
+In a Publications section, click **Import publications** and upload a **BibTeX** export (`.bib`, `.bibtex` or `.txt`, up to 2 MB / 1,000 publications). The importer reads common article and conference citation fields, converts BibTeX author names and common LaTeX accents, and previews entries before changing your CV.
+
+Matching DOIs, matching titles and very similar long titles are flagged against all existing publication sections and earlier entries in the uploaded file. Likely duplicates start unselected. Review/edit fields, select entries and choose **Add selected**. Existing entries are never overwritten. **Undo this import** removes the latest imported batch during the current session; save a backup before leaving if you want a separate copy. Entries without titles are skipped with a file note; malformed files do not add anything. Missing fields remain flagged for review. No website scraping or external service is used.
+
+You can import multiple exports one at a time. Unsupported complex LaTeX and bibliographic inheritance may need manual corrections in review. Only BibTeX exports are supported, not RIS or PDF.
+
 ## Style & photo
 
 Open **Style & photo** in the sidebar to choose six palettes or a custom accent, plain/underlined/banded headings, header alignment, spacing and text size. Upload an optional JPG or PNG photo (up to 10 MB); it is centre-cropped and resized locally. Choose circle/square, left/right placement and three sizes. Photos and style choices are saved with your browser data and JSON backups, and included in PDF/DOCX downloads. Old backups remain compatible. Reset styling preserves your content and photo; remove a photo separately.
