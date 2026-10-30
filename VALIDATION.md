@@ -77,3 +77,7 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 ## HPC default refinement
 
 - Updated HPC default to Administration & Support, Advanced expertise, and the user-supplied software installation, runtime troubleshooting and user-account administration responsibilities. Updated bundled JSON, initial CV and default skill model together. Untouched earlier HPC defaults migrate; customized entries are preserved.
+
+## Combined modelling skill
+
+- Combined the default DFT, electronic-structure and catalyst-modelling skills into First-Principles Modelling & Computational Materials Science; added Quantum ESPRESSO, VASP and Gaussian as supplied by the user. Four default skills remain. Untouched earlier entries combine automatically; customized entries are preserved.

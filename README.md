@@ -1,6 +1,6 @@
 # Sourav Ghosh · CV Studio
 
-A personal academic CV editor, designed for GitHub Pages. No server, account, build step, or external CDN is needed. The initial CV uses Sourav's supplied `Sourav_Ghosh_CV_default.json`, including its current publications, photo and styling. The default JSON is kept in this repository and now includes six skills drawn from the supplied CV.
+A personal academic CV editor, designed for GitHub Pages. No server, account, build step, or external CDN is needed. The initial CV uses Sourav's supplied `Sourav_Ghosh_CV_default.json`, including its current publications, photo and styling. The default JSON is kept in this repository and now includes four skills drawn from the supplied CV.
 
 ## Use
 
@@ -35,7 +35,7 @@ The A4 preview and PDF share one measured layout, including page breaks and page
 - Publication numbering or author-year format, own-name emphasis, sorting and type grouping.
 - Each publication has a manual Nature Index checkbox and impact-factor text field. Advanced → Publications → Journal & metric appearance sets independent colours and normal, bold, italic or underline styles (including combinations) for journal names and both labels. These appear in the preview, PDF and Word. Black-and-white print mode overrides their colours; original free-text metrics remain separately optional.
 - Rich text with bold, italic, links, bullets, subscripts and superscripts.
-- Dedicated forms for teaching, grants, talks, awards, supervision, projects and skills, plus custom sections. Skills include a skillset name, expertise (Beginner / Intermediate / Advanced / Expert), type (Technical / Research / Software & Tools / Laboratory / Communication / Leadership / Other) and rich-text details. Six CV-supported skills are provided by default; HPC expertise is Advanced as supplied by Sourav; other expertise levels remain unselected for review. Existing Skills entries are preserved, matching names are skipped, and the defaults are added only once. Empty sections are excluded from downloads. You can add further Skills sections through Add a section.
+- Dedicated forms for teaching, grants, talks, awards, supervision, projects and skills, plus custom sections. Skills include a skillset name, expertise (Beginner / Intermediate / Advanced / Expert), type (Technical / Research / Software & Tools / Laboratory / Communication / Leadership / Other) and rich-text details. Four CV-supported skills are provided by default; HPC expertise is Advanced as supplied by Sourav; other expertise levels remain unselected for review. Existing Skills entries are preserved, matching names are skipped, and the defaults are added only once. Empty sections are excluded from downloads. You can add further Skills sections through Add a section.
 - Named application versions save section visibility and styling while sharing current CV content. Up to 12 versions are stored.
 - Completeness checks flag missing fields, malformed years/DOIs and likely duplicate publications for review.
 - History keeps up to 10 checkpoints, including manual checkpoints and snapshots before significant changes. Restore creates a checkpoint of the current CV first.

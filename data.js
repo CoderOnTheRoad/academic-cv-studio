@@ -570,24 +570,10 @@ window.CV_INITIAL = {
       "entries": [
         {
           "id": "default-skill-dft",
-          "title": "Density Functional Theory (DFT)",
+          "title": "First-Principles Modelling & Computational Materials Science",
           "expertise": "",
           "skillType": "Research",
-          "details": "First-principles modelling and DFT-based investigation of catalytic materials, reaction energetics and mechanisms."
-        },
-        {
-          "id": "default-skill-electronic",
-          "title": "Electronic structure analysis",
-          "expertise": "",
-          "skillType": "Research",
-          "details": "Analysis of projected density of states (PDOS), d-band centres and orbital interactions to understand catalytic activity."
-        },
-        {
-          "id": "default-skill-catalysts",
-          "title": "Computational catalyst modelling",
-          "expertise": "",
-          "skillType": "Research",
-          "details": "Modelling of single-atom catalysts, covalent organic frameworks and low-dimensional materials for electrocatalytic and photocatalytic reactions."
+          "details": "Experience using Quantum ESPRESSO, VASP and Gaussian for first-principles calculations and computational materials research. DFT-based modelling of single-atom catalysts, covalent organic frameworks and low-dimensional materials; analysis of reaction energetics and mechanisms, projected density of states (PDOS), d-band centres and orbital interactions for electrocatalytic and photocatalytic applications."
         },
         {
           "id": "default-skill-ml",
