@@ -12,6 +12,12 @@ Use **Restore default CV** to return to the bundled default; current edits are s
 
 Use **Backup** to download your current data, and **Restore a backup** to move it to another browser or device. Clearing site data removes browser edits. Initial data in data.js stays unchanged by browser edits. Review citation notes in the Publications editor; missing bibliographic details have not been invented. Optional journal metrics are copied from the original CV, not independently verified.
 
+## Arrange mode
+
+Click **Arrange mode** in the sidebar. Drag the ⠿ handles to reorder sections, choose a section, then drag its entries. Publication groups can also be reordered when grouping is enabled. Papers move within their group; edit Publication group to change a paper’s classification. Reordering papers switches their publication sort to Manual so exports follow the saved order.
+
+Drop to save automatically; click **Done arranging** to return to editing and preview. Focus a handle and press ↑ or ↓ for keyboard ordering. Escape cancels an active drag. Existing arrow buttons remain available. A history checkpoint is saved before every changed arrangement. Arrange mode supports both Simple and Advanced controls.
+
 ## Import publications from Google Scholar or Scopus
 
 In a Publications section, click **Import publications** and upload a **Google Scholar BibTeX** export (`.bib`, `.bibtex` or `.txt`) or a **Scopus CSV** export (`.csv`), up to 2 MB / 1,000 publications. The importer reads common article and conference citation fields, converts BibTeX author names and common LaTeX accents, and previews entries before changing your CV.

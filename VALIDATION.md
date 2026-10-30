@@ -81,3 +81,10 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 ## Combined modelling skill
 
 - Combined the default DFT, electronic-structure and catalyst-modelling skills into First-Principles Modelling & Computational Materials Science; added Quantum ESPRESSO, VASP and Gaussian as supplied by the user. Four default skills remain. Untouched earlier entries combine automatically; customized entries are preserved.
+
+## Arrange mode
+
+- Browser-tested pointer dragging of sections and education entries, keyboard movement, restoration of original order, save/reload, and return to editing.
+- Tested publication group reordering and its persistence, within-group entry ordering, and automatic switch from year sorting to Manual order. Shared layout checks confirm section and publication group order in export blocks.
+- Mobile at 390 px has no document horizontal overflow; controls remain accessible in Simple mode. Mouse/pointer dragging is verified; touch handlers share the same pointer implementation.
+- Reorder regression checks preserve untouched entries and reject unknown/duplicate IDs. Every changed drop creates a history checkpoint; unchanged/cancelled drags do not mutate CV data.

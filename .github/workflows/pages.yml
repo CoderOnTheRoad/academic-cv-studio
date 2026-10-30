@@ -24,6 +24,7 @@ jobs:
           node --check studio.js
           node --check studio-model.js
           node --check cv-layout.js
+          node --check arrange.js
           node --check bibtex.js
           node --check scopus.js
           node tests/bibtex.test.cjs
@@ -35,7 +36,7 @@ jobs:
       - name: Prepare website
         run: |
           mkdir _site
-          cp index.html styles.css app.js bibtex.js scopus.js studio-model.js studio.js cv-layout.js data.js Sourav_Ghosh_CV_default.json _site/
+          cp index.html styles.css app.js bibtex.js scopus.js studio-model.js studio.js cv-layout.js arrange.js data.js Sourav_Ghosh_CV_default.json _site/
           cp -R assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:
