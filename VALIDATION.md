@@ -73,3 +73,7 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Added six skills and descriptions supported by the supplied research profile, experience and interests. Categories are Research or Technical; expertise levels remain unselected.
 - Updated the tracked default JSON and generated initial data together. Original supplied content remains available in Git history.
 - Existing users receive missing defaults once, preserving custom descriptions, expertise levels, matching names and IDs. Checks verify no duplicate insertion or overwriting. Browser preview displays all six skills with their descriptions.
+
+## HPC default refinement
+
+- Updated HPC default to Administration & Support, Advanced expertise, and the user-supplied software installation, runtime troubleshooting and user-account administration responsibilities. Updated bundled JSON, initial CV and default skill model together. Untouched earlier HPC defaults migrate; customized entries are preserved.

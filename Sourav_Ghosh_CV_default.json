@@ -598,10 +598,10 @@
         },
         {
           "id": "default-skill-hpc",
-          "title": "High-performance computing (HPC)",
-          "expertise": "",
+          "title": "High-Performance Computing (HPC) Administration & Support",
+          "expertise": "Advanced",
           "skillType": "Technical",
-          "details": "Use of HPC environments for large-scale materials simulations and computational research workflows."
+          "details": "Experience in configuring HPC environments, installing and managing scientific software, diagnosing and resolving runtime errors, and creating and administering user accounts."
         },
         {
           "id": "default-skill-analysis",
