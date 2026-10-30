@@ -542,28 +542,28 @@
         {
           "id": "default-skill-dft",
           "title": "First-Principles Modelling & Computational Materials Science",
-          "expertise": "",
+          "expertise": "Expert",
           "skillType": "Research",
           "details": "Experience using Quantum ESPRESSO, VASP and Gaussian for first-principles calculations and computational materials research. DFT-based modelling of single-atom catalysts, covalent organic frameworks and low-dimensional materials; analysis of reaction energetics and mechanisms, projected density of states (PDOS), d-band centres and orbital interactions for electrocatalytic and photocatalytic applications."
         },
         {
           "id": "default-skill-ml",
           "title": "Machine learning for materials discovery",
-          "expertise": "",
+          "expertise": "Advanced",
           "skillType": "Technical",
           "details": "Integration of machine learning with high-throughput DFT calculations for catalyst screening and performance prediction."
         },
         {
           "id": "default-skill-hpc",
           "title": "High-Performance Computing (HPC) Administration & Support",
-          "expertise": "Advanced",
+          "expertise": "Intermediate",
           "skillType": "Technical",
           "details": "Experience in configuring HPC environments, installing and managing scientific software, diagnosing and resolving runtime errors, and creating and administering user accounts."
         },
         {
           "id": "default-skill-analysis",
           "title": "Scientific data analysis and workflow automation",
-          "expertise": "",
+          "expertise": "Expert",
           "skillType": "Technical",
           "details": "Workflow automation and analysis of computational simulation data for materials discovery."
         }

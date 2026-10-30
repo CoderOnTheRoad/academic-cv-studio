@@ -94,3 +94,7 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Added Left, Justified, Center and Right controls in Simple and Advanced Style & photo. Settings persist after reload. Existing CVs default to Left.
 - Shared PDF/SVG positioning checks confirm justification, centered/right offsets, unexpanded final lines and explicit line breaks; headings and date rows remain unaffected.
 - Exported and inspected all five PDF and five Word pages with justification. Word stores justified paragraph properties and disables expansion of manually broken lines.
+
+## User-supplied expertise levels
+
+- Saved the supplied levels in default JSON, initial data and skill defaults: modelling Expert; machine learning Advanced; HPC Intermediate; scientific data analysis/workflow automation Expert. Other skill fields remain unchanged. Regression checks validate these four values.
