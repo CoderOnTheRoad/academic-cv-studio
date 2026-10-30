@@ -11,3 +11,12 @@
 - JavaScript syntax check passed.
 
 The initial CV preserves supplied content. Missing publication years/DOIs/pages and the mixed source citation are flagged in the editor. Journal metrics are unverified source values, excluded by default.
+
+## Colour and photo update
+
+- Confirmed existing saved CV loads with migrated style defaults and unchanged entries.
+- Tested palette selection, heading bands, alignment, spacing, photo upload, shape/position/size controls, photo removal and style reset.
+- Confirmed styling and photo survive reloading.
+- Exported and visually reviewed all pages of PDF and DOCX with a photo and coloured headings, and without a photo.
+- Verified embedded photo, accent colour, heading shading and complete publication/reference content in exports.
+- Test avatar was used only in local testing, removed afterward, and is not included in website source.

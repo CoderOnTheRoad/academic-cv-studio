@@ -10,6 +10,10 @@ Edit sections and entries, add custom sections, change their order, and hide sec
 
 Use **Backup** to download your current data, and **Restore a backup** to move it to another browser or device. Clearing site data removes browser edits. Initial data in data.js stays unchanged by browser edits. Review citation notes in the Publications editor; missing bibliographic details have not been invented. Optional journal metrics are copied from the original CV, not independently verified.
 
+## Style & photo
+
+Open **Style & photo** in the sidebar to choose six palettes or a custom accent, plain/underlined/banded headings, header alignment, spacing and text size. Upload an optional JPG or PNG photo (up to 10 MB); it is centre-cropped and resized locally. Choose circle/square, left/right placement and three sizes. Photos and style choices are saved with your browser data and JSON backups, and included in PDF/DOCX downloads. Old backups remain compatible. Reset styling preserves your content and photo; remove a photo separately.
+
 ## GitHub Pages
 
 1. Create a repository and upload these files to its `main` branch.
