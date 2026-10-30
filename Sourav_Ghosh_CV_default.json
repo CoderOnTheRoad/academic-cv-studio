@@ -48,7 +48,9 @@
     "fontSize": "11",
     "showMetrics": true,
     "name": "Modern Researcher",
-    "description": "Teal accents, compact header and airy section bands."
+    "description": "Teal accents, compact header and airy section bands.",
+    "skillsSectionAdded": true,
+    "defaultSkillsAdded": true
   },
   "sections": [
     {
@@ -556,6 +558,57 @@
           "organization": "Assistant Professor, S. N. Bose National Centre for Basic Sciences",
           "date": "",
           "details": "Salt Lake, JD Block, Sector 3, Bidhannagar, Kolkata, West Bengal 700106\nps.pachfule@bose.res.in"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "type": "general",
+      "kind": "skills",
+      "visible": true,
+      "entries": [
+        {
+          "id": "default-skill-dft",
+          "title": "Density Functional Theory (DFT)",
+          "expertise": "",
+          "skillType": "Research",
+          "details": "First-principles modelling and DFT-based investigation of catalytic materials, reaction energetics and mechanisms."
+        },
+        {
+          "id": "default-skill-electronic",
+          "title": "Electronic structure analysis",
+          "expertise": "",
+          "skillType": "Research",
+          "details": "Analysis of projected density of states (PDOS), d-band centres and orbital interactions to understand catalytic activity."
+        },
+        {
+          "id": "default-skill-catalysts",
+          "title": "Computational catalyst modelling",
+          "expertise": "",
+          "skillType": "Research",
+          "details": "Modelling of single-atom catalysts, covalent organic frameworks and low-dimensional materials for electrocatalytic and photocatalytic reactions."
+        },
+        {
+          "id": "default-skill-ml",
+          "title": "Machine learning for materials discovery",
+          "expertise": "",
+          "skillType": "Technical",
+          "details": "Integration of machine learning with high-throughput DFT calculations for catalyst screening and performance prediction."
+        },
+        {
+          "id": "default-skill-hpc",
+          "title": "High-performance computing (HPC)",
+          "expertise": "",
+          "skillType": "Technical",
+          "details": "Use of HPC environments for large-scale materials simulations and computational research workflows."
+        },
+        {
+          "id": "default-skill-analysis",
+          "title": "Scientific data analysis and workflow automation",
+          "expertise": "",
+          "skillType": "Technical",
+          "details": "Workflow automation and analysis of computational simulation data for materials discovery."
         }
       ]
     }

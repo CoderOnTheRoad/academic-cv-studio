@@ -67,3 +67,9 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Added a Skills section with skillset name, expertise and skill-type dropdowns, plus rich-text details in both modes. Existing and default CVs receive an empty section once; deleting it is respected. Original supplied JSON remains unchanged.
 - Model checks cover idempotent section creation and user deletion. Layout regression checks verify all four skill fields in shared PDF/preview text operations.
 - Browser check added a temporary skill, selected Advanced and Software & Tools, saved details and verified values after reload and in both downloads. No example skills are shipped as personal claims.
+
+## Prefilled default skills
+
+- Added six skills and descriptions supported by the supplied research profile, experience and interests. Categories are Research or Technical; expertise levels remain unselected.
+- Updated the tracked default JSON and generated initial data together. Original supplied content remains available in Git history.
+- Existing users receive missing defaults once, preserving custom descriptions, expertise levels, matching names and IDs. Checks verify no duplicate insertion or overwriting. Browser preview displays all six skills with their descriptions.
