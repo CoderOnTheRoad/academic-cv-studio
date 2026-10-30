@@ -88,3 +88,9 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Tested publication group reordering and its persistence, within-group entry ordering, and automatic switch from year sorting to Manual order. Shared layout checks confirm section and publication group order in export blocks.
 - Mobile at 390 px has no document horizontal overflow; controls remain accessible in Simple mode. Mouse/pointer dragging is verified; touch handlers share the same pointer implementation.
 - Reorder regression checks preserve untouched entries and reject unknown/duplicate IDs. Every changed drop creates a history checkpoint; unchanged/cancelled drags do not mutate CV data.
+
+## Body text alignment
+
+- Added Left, Justified, Center and Right controls in Simple and Advanced Style & photo. Settings persist after reload. Existing CVs default to Left.
+- Shared PDF/SVG positioning checks confirm justification, centered/right offsets, unexpanded final lines and explicit line breaks; headings and date rows remain unaffected.
+- Exported and inspected all five PDF and five Word pages with justification. Word stores justified paragraph properties and disables expansion of manually broken lines.

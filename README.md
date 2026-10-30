@@ -28,6 +28,9 @@ You can import multiple exports one at a time. Unsupported complex LaTeX and bib
 
 ## Style & photo
 
+Choose **Body text alignment** in either mode: Left, Justified, Center or Right. It applies to descriptions and publication citations in the preview and PDF/Word downloads. Headings, header alignment, dates and metadata retain their own layout. Existing CVs remain left-aligned until changed.
+
+
 Choose **Simple** for essential editing, templates, palettes, photos and downloads. Switch to **Advanced** for all styling and publication controls, application versions, completeness checks and history. Both modes edit the same saved CV.
 
 Four templates retain Computer Modern typography: **Classic Hong**, **Oxford**, **Modern Researcher** and **Spectrum Academic**. Spectrum uses plum and teal, numbered section bands and a coloured page edge. Advanced controls include separate name/heading/link/divider colours, margins, line spacing, entry/section spacing, indentation and black-and-white print mode.
