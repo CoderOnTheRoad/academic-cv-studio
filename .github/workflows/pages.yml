@@ -22,12 +22,14 @@ jobs:
         run: |
           node --check app.js
           node --check bibtex.js
+          node --check scopus.js
           node tests/bibtex.test.cjs
+          node tests/scopus.test.cjs
       - uses: actions/configure-pages@v5
       - name: Prepare website
         run: |
           mkdir _site
-          cp index.html styles.css app.js bibtex.js data.js _site/
+          cp index.html styles.css app.js bibtex.js scopus.js data.js _site/
           cp -R assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:

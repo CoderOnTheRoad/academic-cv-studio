@@ -10,13 +10,13 @@ Edit sections and entries, add custom sections, change their order, and hide sec
 
 Use **Backup** to download your current data, and **Restore a backup** to move it to another browser or device. Clearing site data removes browser edits. Initial data in data.js stays unchanged by browser edits. Review citation notes in the Publications editor; missing bibliographic details have not been invented. Optional journal metrics are copied from the original CV, not independently verified.
 
-## Import Google Scholar publications
+## Import publications from Google Scholar or Scopus
 
-In a Publications section, click **Import publications** and upload a **BibTeX** export (`.bib`, `.bibtex` or `.txt`, up to 2 MB / 1,000 publications). The importer reads common article and conference citation fields, converts BibTeX author names and common LaTeX accents, and previews entries before changing your CV.
+In a Publications section, click **Import publications** and upload a **Google Scholar BibTeX** export (`.bib`, `.bibtex` or `.txt`) or a **Scopus CSV** export (`.csv`), up to 2 MB / 1,000 publications. The importer reads common article and conference citation fields, converts BibTeX author names and common LaTeX accents, and previews entries before changing your CV.
 
 Matching DOIs, matching titles and very similar long titles are flagged against all existing publication sections and earlier entries in the uploaded file. Likely duplicates start unselected. Review/edit fields, select entries and choose **Add selected**. Existing entries are never overwritten. **Undo this import** removes the latest imported batch during the current session; save a backup before leaving if you want a separate copy. Entries without titles are skipped with a file note; malformed files do not add anything. Missing fields remain flagged for review. No website scraping or external service is used.
 
-You can import multiple exports one at a time. Unsupported complex LaTeX and bibliographic inheritance may need manual corrections in review. Only BibTeX exports are supported, not RIS or PDF.
+You can import multiple exports one at a time. Unsupported complex LaTeX and bibliographic inheritance may need manual corrections in review. Scopus CSV columns are mapped by header, so column order can vary. Full author names are preferred and Scopus author IDs are removed from displayed names. Page ranges and article numbers are both supported. DOI, volume, issue, venue and publication year are preserved. Citation counts are not treated as journal metrics. UTF-8 and Windows-1252 CSV files are accepted. Quoted commas, quotes and line breaks are handled; malformed rows fail without adding partial records. RIS and PDF imports are not supported.
 
 ## Style & photo
 

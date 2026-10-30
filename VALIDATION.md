@@ -30,3 +30,11 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Adding selected entries changed the live CV publication count from seven to nine; citation formatting and accented authors were preserved. Undo restored seven without touching existing entries.
 - No publication-export rendering code changed; imported records use the same preview/PDF/Word citation formatter as manually entered publications.
 - Run regression checks with `node tests/bibtex.test.cjs`.
+
+## Scopus CSV import
+
+- Inspected the supplied Scopus CSV header and mapped full author names, title, year, source title, volume, issue, article number, page start/end and DOI. No source-file instructions are executed.
+- Parsed all 12 supplied rows, stripped Scopus author IDs from displayed names, preserved accented authors, and checked page ranges and article numbers. The user’s file is not committed or shipped with the website.
+- Browser test of the supplied export: 12 entries, 7 likely duplicates, 5 new entries selected; adding yielded 12 CV publications, and undo restored the original 7.
+- Regression checks cover BOM/CRLF, quoted commas and quotes, multiline fields, malformed/ragged CSV, duplicate headers, missing titles, full/initials-only authors, DOI normalisation, article numbers and escaped HTML content.
+- Existing BibTeX tests remain passing. Run `node tests/scopus.test.cjs` and `node tests/bibtex.test.cjs`.
