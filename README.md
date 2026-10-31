@@ -12,6 +12,10 @@ Use **Restore default CV** to return to the bundled default; current edits are s
 
 Use **Backup** to download your current data, and **Restore a backup** to move it to another browser or device. Clearing site data removes browser edits. Initial data in data.js stays unchanged by browser edits. Review citation notes in the Publications editor; missing bibliographic details have not been invented. Optional journal metrics are copied from the original CV, not independently verified.
 
+## Academic profile links
+
+Under **Personal details → Academic & professional profiles**, enter ORCID, Google Scholar, GitHub and ResearchGate profile URLs. ORCID also accepts a hyphenated ID. Only valid HTTP(S) links appear. Text labels such as [Google Scholar] sit below personal details, with or without a photo. When a photo is present, matching clickable icons also appear directly underneath it. Icons respect the photo placement/size and black-and-white mode; text links follow the Links colour. Preview links open a new tab. PDF annotations and Word hyperlinks support both labels and icons. URLs are included in browser saves and backups; no account scraping or remote icon requests occur.
+
 ## Arrange mode
 
 Click **Arrange mode** in the sidebar. Drag the ⠿ handles to reorder sections, choose a section, then drag its entries. Publication groups can also be reordered when grouping is enabled. Papers move within their group; edit Publication group to change a paper’s classification. Reordering papers switches their publication sort to Manual so exports follow the saved order.

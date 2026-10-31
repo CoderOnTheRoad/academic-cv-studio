@@ -109,3 +109,10 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 ## Additional skills
 
 - Added the approved Programming & Web Development, Database Management, and Scientific Writing & Productivity Tools descriptions to default JSON and model. Expertise remains unselected for these three. Existing CVs receive missing entries once, without replacing custom entries or duplicates; style reset retains migration markers.
+
+## Academic profile links
+
+- Added editable ORCID, Google Scholar, GitHub and ResearchGate fields. Valid URL normalization accepts ORCID IDs and schemeless domains, rejects script/data schemes and credential-bearing URLs, and omits blanks.
+- Shared header blocks render linked labels below details. Photo headers include locally generated SVG/PNG icons below the image, with clickable SVG links, PDF image annotations and Word image hyperlinks.
+- Browser verified all four links, reload persistence, right/large and left/small photo layouts, monochrome mode, and text-only links without a photo. Test URLs were removed afterward and are not in the default CV.
+- Visually inspected first-page PDF and Word exports. Programmatically confirmed each profile has both text and icon PDF destinations and four Word image hyperlinks. Model and layout checks cover labels, normalization, omission and no-photo behavior.
