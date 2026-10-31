@@ -167,7 +167,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105028164134 / Article / Final",
           "id": "91380ede-ddb2-48d1-b21a-9b011dc4f825",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "first",
+          "contribution": "",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Metal-free redox active covalent organic frameworks for electrocatalytic oxygen reduction reaction",
@@ -182,7 +185,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105048763773 / Article / Final",
           "id": "46fd0077-b0c0-46b6-a916-e9a39e2fa263",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "equalFirst",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Realizing a 4,3,3-connected tfe topology in an imidazole-linked three-dimensional covalent organic framework",
@@ -197,7 +203,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105053430859 / Article / Article in press",
           "id": "6a4a677f-11ec-495e-ae0f-1680444d5ada",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "equalFirst",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Comparative CO2 Electroreduction by Cu7 Nanoclusters across Molecular, 1D, and 2D Reticular Architectures",
@@ -212,7 +221,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from BibTeX: article / 10.1021/acsmaterialsau.6c00199",
           "id": "9ecce5ed-a63e-4dfc-b8ad-868bb62792a5",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "equalFirst",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Synergistic Roles of Hydroxyl Groups and Coordinating Ligands in Governing Metal-Specific Electrocatalytic Nitrate Reduction in Covalent Organic Framework",
@@ -227,7 +239,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from BibTeX: article / 10.1021/acsmaterialsau.6c00186",
           "id": "0d31a87a-6638-4e72-b527-263d7968b8ff",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "equalFirst",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Heteroatom-Engineered Covalent Organic Frameworks Break the CO2 Separation Trade-Off in Mixed Matrix Membranes",
@@ -244,7 +259,10 @@ window.CV_INITIAL = {
           "id": "cbb5ea8f-c3df-46dd-aa6f-0724cf6d2878",
           "pubType": "journal",
           "natureIndexed": "false",
-          "impactFactor": ""
+          "impactFactor": "",
+          "authorship": "coauthor",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Vinylene-Linked Woven Covalent Organic Frameworks for the Oxygen Reduction Reaction",
@@ -259,7 +277,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105052386733 / Article / Final",
           "id": "37814b6d-863f-4cbd-a2dd-b5323ded4595",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Synergistic Light Harvesting and Catalysis in a Photoactive π-Scaffolded Covalent Organic Framework−Re Hybrid for CO2-to-CO Photoreduction",
@@ -274,7 +295,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105036364065 / Article / Article in press",
           "id": "bc05def5-6f5f-4b7d-8e6f-bd28b75d0134",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Site specific descriptors for oxygen evolution reaction activity on single atom catalysts using QMML",
@@ -289,7 +313,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-85197408982 / Article / Final",
           "id": "7bbbf1ae-4293-487d-9a21-74fd9b534fc5",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Conducted theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Bond Exchange Mechanism: Unveiling the Volmer-Tafel Pathway and an Electronic Descriptor for Predicting Hydrogen Evolution Reaction Activity of Borophene",
@@ -304,7 +331,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-85170225414 / Article / Final",
           "id": "b685afee-235e-4b3f-b02b-91aaecad47f7",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Conducted theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "A Redox-Active Tetrathiafulvalene-Based 3D Covalent Organic Framework with scu Topology for Controllable Charge Transport",
@@ -319,7 +349,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105026794383 / Article / Final",
           "id": "7df404fd-c852-4648-a9d3-f7c596d4dc9b",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Palladium-enhanced copper nitride anti-perovskite nanocrystals boosting CO2 electroreduction to C2 products",
@@ -334,7 +367,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105015449490 / Article / Final",
           "id": "3b80a0ab-3c75-4cf9-8bc8-206248411aab",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Synthesis of 2-imidazolidinone from ethylenediamine using CO2as a C1 building block over the SnO2/g-C3N4catalyst",
@@ -349,7 +385,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105025210989 / Article / Final",
           "id": "9aa628df-7a78-48be-9e92-3380cf6a06c1",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Conducted all theoretical calculations and analyses, prepared the initial and final drafts of the theoretical sections, and contributed to manuscript revision and review. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         },
         {
           "title": "Does Excellence Correspond to Universal Inequality Level?",
@@ -364,7 +403,10 @@ window.CV_INITIAL = {
           "review": "",
           "source": "Imported from Scopus CSV / 2-s2.0-105006564072 / Article / Final",
           "id": "633343c7-6947-4b15-9d26-70c4152d5c34",
-          "pubType": "journal"
+          "pubType": "journal",
+          "authorship": "coauthor",
+          "contribution": "Carried out statistical calculations and analysis. Details are provided in the author contribution statement.",
+          "contributionDefaultsVersion": "1"
         }
       ]
     },

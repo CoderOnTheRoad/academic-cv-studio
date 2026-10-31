@@ -98,3 +98,10 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 ## User-supplied expertise levels
 
 - Saved the supplied levels in default JSON, initial data and skill defaults: modelling Expert; machine learning Advanced; HPC Intermediate; scientific data analysis/workflow automation Expert. Other skill fields remain unchanged. Regression checks validate these four values.
+
+## Authorship and contributions
+
+- Read the user-supplied pasted message and attachment as bibliographic content. Added First author / Equal-contributing first author / Co-author dropdown and My contribution text for all publication forms, in both modes.
+- Default CV has 14 roles (one first author, four equal-first authors, nine co-authors) and 13 supplied contribution descriptions. First-author Symmetry paper contribution remains blank. Matched by DOI with title fallback for older CVs; manual fields and subsequent blank edits are preserved.
+- Browser verified the Comparative CO2 paper’s equal-first role and supplied contribution, edited and reloaded its contribution, then restored the supplied wording. Shared layout tests check bold labels and citation/contribution grouping; model tests cover default mapping and preservation.
+- Rendered and visually reviewed all six PDF and all six Word pages. Authorship labels are bold and contribution text sits below the matching citation without clipping.
