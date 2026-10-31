@@ -116,3 +116,7 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Shared header blocks render linked labels below details. Photo headers include locally generated SVG/PNG icons below the image, with clickable SVG links, PDF image annotations and Word image hyperlinks.
 - Browser verified all four links, reload persistence, right/large and left/small photo layouts, monochrome mode, and text-only links without a photo. Test URLs were removed afterward and are not in the default CV.
 - Visually inspected first-page PDF and Word exports. Programmatically confirmed each profile has both text and icon PDF destinations and four Word image hyperlinks. Model and layout checks cover labels, normalization, omission and no-photo behavior.
+
+## Contribution indentation
+
+- Contribution paragraphs now use the configured publication indentation on every line, matching the citation hanging-text margin in preview/PDF and Word. Author-year citations have no added inset. Layout tests cover the numeric offset and author-year behavior.
