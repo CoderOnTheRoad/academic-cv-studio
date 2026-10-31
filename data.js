@@ -50,7 +50,8 @@ window.CV_INITIAL = {
     "name": "Modern Researcher",
     "description": "Teal accents, compact header and airy section bands.",
     "skillsSectionAdded": true,
-    "defaultSkillsAdded": true
+    "defaultSkillsAdded": true,
+    "additionalSkillsAdded": true
   },
   "sections": [
     {
@@ -608,6 +609,27 @@ window.CV_INITIAL = {
           "expertise": "Expert",
           "skillType": "Technical",
           "details": "Workflow automation and analysis of computational simulation data for materials discovery."
+        },
+        {
+          "id": "default-skill-programming",
+          "title": "Programming & Web Development",
+          "expertise": "",
+          "skillType": "Technical",
+          "details": "Experience with C, C++, Python, Java, JavaScript, PHP, HTML, and CSS for programming, scripting, and web development."
+        },
+        {
+          "id": "default-skill-databases",
+          "title": "Database Management",
+          "expertise": "",
+          "skillType": "Technical",
+          "details": "Working knowledge of SQL for querying, organizing, and managing structured data."
+        },
+        {
+          "id": "default-skill-productivity",
+          "title": "Scientific Writing & Productivity Tools",
+          "expertise": "",
+          "skillType": "Software & Tools",
+          "details": "Proficiency in Microsoft Word, Excel, PowerPoint, and LaTeX for academic writing, data organization, and presentations."
         }
       ]
     },

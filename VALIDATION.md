@@ -105,3 +105,7 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 - Default CV has 14 roles (one first author, four equal-first authors, nine co-authors) and 13 supplied contribution descriptions. First-author Symmetry paper contribution remains blank. Matched by DOI with title fallback for older CVs; manual fields and subsequent blank edits are preserved.
 - Browser verified the Comparative CO2 paper’s equal-first role and supplied contribution, edited and reloaded its contribution, then restored the supplied wording. Shared layout tests check bold labels and citation/contribution grouping; model tests cover default mapping and preservation.
 - Rendered and visually reviewed all six PDF and all six Word pages. Authorship labels are bold and contribution text sits below the matching citation without clipping.
+
+## Additional skills
+
+- Added the approved Programming & Web Development, Database Management, and Scientific Writing & Productivity Tools descriptions to default JSON and model. Expertise remains unselected for these three. Existing CVs receive missing entries once, without replacing custom entries or duplicates; style reset retains migration markers.
