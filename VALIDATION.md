@@ -120,3 +120,9 @@ The initial CV preserves supplied content. Missing publication years/DOIs/pages 
 ## Contribution indentation
 
 - Contribution paragraphs now use the configured publication indentation on every line, matching the citation hanging-text margin in preview/PDF and Word. Author-year citations have no added inset. Layout tests cover the numeric offset and author-year behavior.
+
+## Page placement controls
+
+- Added section Start this section on a new page and entry Keep this entry together checkboxes in both modes. Values are backup-compatible strings.
+- PDF/SVG layout honors explicit breaks and preflights full entry blocks; oversized entries can split. Word applies pageBreakBefore plus keep-with-next chains without chaining a preceding header across an explicit break.
+- Tests cover section breaks, toggling off, hidden sections, multi-block entry flags and oversized-entry pagination. Browser checked settings persisted after reload; Education begins on PDF page 2 and Word contains the expected page break. Visually inspected the Word page-2 result.

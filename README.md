@@ -12,6 +12,10 @@ Use **Restore default CV** to return to the bundled default; current edits are s
 
 Use **Backup** to download your current data, and **Restore a backup** to move it to another browser or device. Clearing site data removes browser edits. Initial data in data.js stays unchanged by browser edits. Review citation notes in the Publications editor; missing bibliographic details have not been invented. Optional journal metrics are copied from the original CV, not independently verified.
 
+## Page placement
+
+In any section, tick **Start this section on a new page** to move its heading and content to a fresh page. Each entry also has **Keep this entry together**, which keeps its title, metadata, details and any publication contribution together when they fit on a page. Entries longer than one full page may still split. Controls work in both Simple and Advanced modes and are saved in backups. Preview/PDF use the same page rules; Word uses native page-break and keep-with-next properties and can paginate differently by reader. Empty or hidden sections do not create page breaks.
+
 ## Academic profile links
 
 Under **Personal details → Academic & professional profiles**, enter ORCID, Google Scholar, GitHub and ResearchGate profile URLs. ORCID also accepts a hyphenated ID. Only valid HTTP(S) links appear. Text labels such as [Google Scholar] sit below personal details, with or without a photo. When a photo is present, matching clickable icons also appear directly underneath it. Icons respect the photo placement/size and black-and-white mode; text links follow the Links colour. Preview links open a new tab. PDF annotations and Word hyperlinks support both labels and icons. URLs are included in browser saves and backups; no account scraping or remote icon requests occur.
